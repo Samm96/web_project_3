@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Inter";
-  src: url(/Inter-Web/inter.css);
+  src: url(/vendor/fonts/inter.css);
 }
 
 .page {
-  max-width: 1280vmax;
+  max-width: 1280px;
   margin: 0 auto;
   background-color: #2a2c2f;
   font-family: "Inter";
@@ -29,7 +29,9 @@
 .header__title {
   margin: 20px 0 0 0;
   padding: 0;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 20px;
 }
 
 .lead {
@@ -45,6 +47,8 @@
   padding: 0;
   width: 793px;
   font-size: 96px;
+  line-height: 100px;
+  font-weight: 900;
   text-align: center;
 }
 
@@ -53,21 +57,24 @@
   padding: 0;
   width: 720px;
   font-size: 30px;
+  line-height: 36px;
   text-align: center;
   font-style: normal;
   font-weight: normal;
 }
 
-/* width is wrong. needs fixing */
 .lead__image {
   margin: 0;
   padding: 0;
-  width: calc(100% - 984px);
+  max-width: 984px;
 }
 
 .intro {
-  margin: 92px 0 0 0;
-  padding: 0;
+  margin: 92px auto 0;
+  padding: 0 0 118px 0;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
 }
 
 .intro__title {
@@ -75,29 +82,35 @@
   margin: 0;
   padding: 0;
   font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
 }
 
 .intro__text {
   margin: 0;
   padding: 0;
   width: 690px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.5;
 }
 
 .intro__text:nth-of-type(1) {
   margin: 40px 0 0 0;
   font-size: 24px;
+  line-height: 34px;
+  font-weight: 400px;
 }
 
 .intro__text:nth-last-of-type(2) {
   margin: 10px 0 0 0;
   text-align: right;
   font-size: 24px;
+  line-height: 34px;
+  font-weight: 400px;
+
 }
 
 .intro__text:last-child {
   margin: 32px 0 0 0;
   font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
