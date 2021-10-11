@@ -142,9 +142,15 @@
 }
 
 .place {
-  margin: 0;
+  margin: 80px 0 0 0;
   padding: 0;
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px 48px;
+}
+
+.place:first-child {
+  margin: 92px 0 0 0;
 }
 
 .place__title {
@@ -154,22 +160,31 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
+
 }
 
 .place__image {
   max-width: 460px;
+  grid-column: 1;
+  grid-row: span 2;
 }
 
 .place__button {
   max-width: 248px;
-  margin: 48px 0 0 0;
+  margin: 0;
   text-align: center;
+  grid-column: 1;
 }
 
 .place__website {
   margin: 0;
   padding: 0;
   width: 456px;
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .place__url-heading {
@@ -183,7 +198,7 @@
 }
 
 .place__link {
-  margin: 0;
+  margin: 8px 0 0 0;
   padding: 0;
   text-decoration: none;
   color: #ffffff;
@@ -193,7 +208,8 @@
 }
 
 .place__paragraph {
-  margin: 25px 0 0;
+  width: 484px;
+  margin: 0;
   padding: 0;
   font-size: 18px;
   font-weight: 400;
