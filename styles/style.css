@@ -114,3 +114,16 @@
   font-weight: 400;
   line-height: 26px;
 }
+
+.photo-grid {
+  margin: 0 auto 0;
+  padding: 0;
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+}
+
+.photo-grid__item {
+  max-width: 284px;
+}
