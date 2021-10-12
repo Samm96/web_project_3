@@ -188,6 +188,12 @@
   grid-area: button;
 }
 
+.place__button:hover {
+  background-color: #0063D2;
+  transition: .2s;
+  transition-timing-function: ease-out;
+}
+
 .place__website {
   margin: 0;
   padding: 0;

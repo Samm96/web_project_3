@@ -1,9 +1,12 @@
 .place__image {
-    max-width: 460px;
-    grid-column: 1;
-  }
-  
-  .place__image:last-of-type {
-    height: 460px;
-    object-fit: cover;
-  }
+  margin: 0;
+  padding: 0;
+  max-width: 460px;
+  grid-column: span 1;
+  grid-area: image;
+}
+
+.place__image:last-of-type {
+  height: 460px;
+  object-fit: cover;
+}
