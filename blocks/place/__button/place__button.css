@@ -1,0 +1,7 @@
+.place__button {
+    max-width: 248px;
+    margin: 0;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 3;
+  }
