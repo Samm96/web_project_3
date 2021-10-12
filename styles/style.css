@@ -145,6 +145,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 48px 40px;
+  grid-template-areas: 
+  "title website"
+  "image paragraph"
+  "image paragraph"
+  "button paragraph";
+
 }
 
 .place:first-child {
@@ -158,11 +164,13 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
+  grid-area: title;
 }
 
 .place__image {
   max-width: 460px;
   grid-column: 1;
+  grid-area: image;
 }
 
 .place__image:last-of-type {
@@ -176,6 +184,7 @@
   text-align: center;
   grid-column: 1;
   grid-row: 3;
+  grid-area: button;
 }
 
 .place__website {
@@ -187,6 +196,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  grid-area: website;
 }
 
 .place__url-heading {
@@ -209,14 +219,18 @@
   font-weight: 400;
 }
 
-.place__paragraph {
+.place__paragraphs {
   width: 484px;
   margin: 0;
   padding: 0;
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
-  grid-row: span 3;
+}
+
+.place__paragraph {
+  margin: 0 0 25px 0;
+  grid-area: paragraph;
 }
 
 .cover {
@@ -240,7 +254,7 @@
   background-color: #2a2c2f;
   opacity: 0.3;
   z-index: -1;
-  
+
   transition: .2s;
   transition-timing-function: ease-out;
 }
