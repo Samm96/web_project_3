@@ -240,6 +240,13 @@
   background-color: #2a2c2f;
   opacity: 0.3;
   z-index: -1;
+  
+  transition: .2s;
+  transition-timing-function: ease-out;
+}
+
+.cover__background:hover::before {
+  opacity: .8;
 }
 
 .cover__group {
