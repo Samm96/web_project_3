@@ -228,6 +228,18 @@
   background-image: url(/images/__background\ 4.jpg);
   background-repeat: no-repeat;
   background-size: 1184px 740px;
+  position: relative;
+  z-index: 0;
+}
+
+.cover__background::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: .3;
+  z-index: -1;
 }
 
 .cover__group {
