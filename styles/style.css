@@ -167,6 +167,11 @@
   grid-column: 1;
 }
 
+.place__image:last-of-type {
+  height: 460px;
+  object-fit: cover;
+}
+
 .place__button {
   max-width: 248px;
   margin: 0;
