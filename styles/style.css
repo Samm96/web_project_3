@@ -146,7 +146,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 40px 48px;
+  grid-gap: 48px 40px;
 }
 
 .place:first-child {
@@ -160,13 +160,11 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
-
 }
 
 .place__image {
   max-width: 460px;
   grid-column: 1;
-  grid-row: span 2;
 }
 
 .place__button {
@@ -174,6 +172,7 @@
   margin: 0;
   text-align: center;
   grid-column: 1;
+  grid-row: 3;
 }
 
 .place__website {
@@ -214,4 +213,5 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
+  grid-row: span 3;
 }
