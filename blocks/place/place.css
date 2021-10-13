@@ -4,10 +4,9 @@
   display: grid;
   grid-gap: 48px 40px;
   grid-template-areas: 
-  "title website"
-  "image paragraph"
-  "image paragraph"
-  "button .";
+  "header header"
+  "image main"
+  "nav .";
 }
 
 .place:first-child {

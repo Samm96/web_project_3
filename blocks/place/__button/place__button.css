@@ -4,7 +4,7 @@
   text-align: center;
   grid-column: 1;
   grid-row: 3;
-  grid-area: button;
+  grid-area: nav;
 }
 
 .place__button:hover {
