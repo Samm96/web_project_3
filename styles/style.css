@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "Inter";
-  src: url(/vendor/fonts/inter.css);
-}
+@import url(/vendor/fonts/inter.css);
 
 .page {
   max-width: 1280px;
@@ -146,10 +143,9 @@
   display: grid;
   grid-gap: 48px 40px;
   grid-template-areas: 
-  "title website"
-  "image paragraph"
-  "image paragraph"
-  "button .";
+  "header header"
+  "image main"
+  "nav .";
 }
 
 .place:first-child {
@@ -163,14 +159,16 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
-  grid-area: title;
+  grid-area: header;
+  grid-column: 1;
 }
 
 .place__image {
   margin: 0;
   padding: 0;
   max-width: 460px;
-  grid-column: span 1;
+  grid-column: 1;
+  grid-row: 2;
   grid-area: image;
 }
 
@@ -185,7 +183,7 @@
   text-align: center;
   grid-column: 1;
   grid-row: 3;
-  grid-area: button;
+  grid-area: nav;
 }
 
 .place__button:hover {
@@ -199,11 +197,11 @@
   padding: 0;
   width: 456px;
   grid-row: 1;
-  grid-column: 2;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  grid-area: website;
+  grid-area: header;
+  grid-column: 2;
 }
 
 .place__url-heading {
@@ -234,12 +232,11 @@
   font-weight: 400;
   line-height: 29px;
   grid-row: span 3;
-  grid-area: paragraph;
 }
 
 .place__paragraph {
   margin: 0 0 25px 0;
-  grid-area: paragraph;
+  grid-area: main;
 }
 
 .cover {
