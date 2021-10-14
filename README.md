@@ -18,6 +18,15 @@ The website was coded with the following screen resolutions in mind:
 * 768
 * 320
 
+*Techniques Used*
+
+* Grid
+* Flexbox
+* BEM Methodology
+* At-Rules (at-media, at-import)
+* Positioning
+* Pseudo-classes
+
 *Programs Used*
 
 * VS Code
