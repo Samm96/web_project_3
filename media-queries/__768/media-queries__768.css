@@ -2,9 +2,17 @@
   .page {
       width: 768px;
   }
+
+  .lead {
+    margin: 88px 0 0 0;
+  }
   
     .lead__title {
     width: 720px;
+  }
+
+  .lead__subtitle {
+    margin: 32px 0 36px 0;
   }
 
   .lead__image {
@@ -49,6 +57,9 @@
   }
 
   .place__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     max-width: 340px;
     font-size: 42px;
     font-weight: 900;
@@ -72,6 +83,15 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+  }
+
+  .cover {
+    margin: 88px auto 0;
+    max-width: 768px;
+  }
+
+  .cover__background {
+    background-size: 768px 746px;
   }
 
   .footer {
