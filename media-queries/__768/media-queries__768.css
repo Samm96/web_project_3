@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
   .page {
-      width: 768px;
+      max-width: 768px;
   }
 
   .lead {
