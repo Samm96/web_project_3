@@ -7,3 +7,7 @@
     line-height: 22px;
     font-weight: 400;
   }
+
+  .place__link:last-child {
+    margin: 0;
+  }
