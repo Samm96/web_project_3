@@ -6,9 +6,3 @@
   grid-row: 3;
   grid-area: nav;
 }
-
-.place__button:hover {
-  background-color: #0063D2;
-  transition: .2s;
-  transition-timing-function: ease-out;
-}
