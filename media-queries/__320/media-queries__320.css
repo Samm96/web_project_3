@@ -103,14 +103,47 @@
     }
 
     .cover {
-        max-width: 321px;
+        max-width: 320px;
         height: 254px;
+        margin: 64px auto 0;
+    }
+
+    .cover__group {
+        max-width: 288px;
+        margin: 0 auto;
+        padding: 46px 0 0 0;
+        display: flex;
+        flex-direction: column;
     }
 
     .cover__background {
         background-size: 320px 254px;
     }
 
-    
+    .cover__title {
+        width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .cover__subtitle {
+        margin: 16px 0;
+        width: 288px;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .cover__text {
+        text-align: center;
+        width: 288px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .cover__button {
+        grid-row: none;
+        grid-column: none;
+    }
+
 
 }
