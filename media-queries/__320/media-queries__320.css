@@ -101,3 +101,16 @@
     .place__button {
         max-width: 288px;
     }
+
+    .cover {
+        max-width: 321px;
+        height: 254px;
+    }
+
+    .cover__background {
+        background-size: 320px 254px;
+    }
+
+    
+
+}
