@@ -6,3 +6,11 @@
   grid-row: 3;
   grid-area: nav;
 }
+
+@media screen and (max-width: 320px) {
+  .place__button {
+    max-width: 288px;
+    grid-column: 1;
+    grid-row: 5;
+}
+}

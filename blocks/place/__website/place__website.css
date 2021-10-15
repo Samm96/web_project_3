@@ -9,3 +9,18 @@
   grid-area: header;
   grid-column: 2;
 }
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    width: 316px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    margin: 0;
+    padding: 0;
+    grid-column: 1;
+    grid-row: 2;
+}
+}

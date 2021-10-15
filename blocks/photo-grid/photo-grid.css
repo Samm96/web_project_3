@@ -6,3 +6,21 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 16px;
   }
+
+  @media screen and (max-width: 768px) {
+    .photo-grid {
+      max-width: 720px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(4, 1fr);
+      grid-gap: 16px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .photo-grid {
+      max-width: 288px;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(8, 1fr);
+      grid-gap: 12px;
+  }
+  }

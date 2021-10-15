@@ -6,3 +6,10 @@
     line-height: 20px;
     text-transform: uppercase;
   }
+
+  @media screen and (max-width: 320px) {
+    .header__title {
+        font-size: 15px;
+        line-height: 15px;
+    }
+  }

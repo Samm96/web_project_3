@@ -12,3 +12,32 @@
 .place:first-child {
   margin: 92px 0 0 0;
 }
+
+@media screen and (max-width: 768px) {
+  .place {
+    margin: 72px 0 0 0;
+    grid-gap: 48px 28px;
+  }
+
+  .place:first-child {
+    margin: 88px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    margin: 48px 0;
+    padding: 0;
+    grid-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "header"
+    "main"
+    "nav";
+}
+
+.place:first-child {
+    margin: 64px 0 0 0;
+  }
+}

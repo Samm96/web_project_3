@@ -41,6 +41,3 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-@import url(../media-queries/__768/media-queries__768.css);
-@import url(../media-queries/__320/media-queries__320.css);

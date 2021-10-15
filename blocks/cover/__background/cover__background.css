@@ -22,3 +22,15 @@
 .cover__background:hover::before {
   opacity: .8;
 }
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    background-size: 768px 746px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    background-size: 320px 254px;
+}
+}

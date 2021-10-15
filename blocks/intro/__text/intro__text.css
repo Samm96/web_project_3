@@ -25,3 +25,19 @@
     font-weight: 400;
     line-height: 26px;
   }
+
+  @media screen and (max-width: 768px) {
+    .intro__text {
+      width: 720px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .intro__text {
+      width: 288px;
+  }
+
+  .intro__text:nth-of-type(1) {
+      line-height: 30px;
+    }
+  }
