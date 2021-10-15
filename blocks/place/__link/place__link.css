@@ -1,20 +1,20 @@
 .place__link {
-    margin: 8px 0 0 0;
-    padding: 0;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 400;
-  }
+  margin: 8px 0 0 0;
+  padding: 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
 
-  .place__link:last-child {
-    margin: 0;
-  }
+.place__link:last-child {
+  margin: 0;
+}
 
-  @media screen and (max-width: 320px) {
-    .place__link {
-      margin: 12px 0 0 0;
-      width: 288px;
+@media screen and (max-width: 320px) {
+  .place__link {
+    margin: 12px 0 0 0;
+    width: 288px;
   }
-  }
+}

@@ -3,10 +3,10 @@
   padding: 0;
   display: grid;
   grid-gap: 48px 40px;
-  grid-template-areas: 
-  "header header"
-  "image main"
-  "nav .";
+  grid-template-areas:
+    "header header"
+    "image main"
+    "nav .";
 }
 
 .place:first-child {
@@ -31,13 +31,13 @@
     grid-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-areas:
-    "header"
-    "header"
-    "main"
-    "nav";
-}
+      "header"
+      "header"
+      "main"
+      "nav";
+  }
 
-.place:first-child {
+  .place:first-child {
     margin: 64px 0 0 0;
   }
 }

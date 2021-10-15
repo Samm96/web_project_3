@@ -15,12 +15,12 @@
   opacity: 0.3;
   z-index: -1;
 
-  transition: .2s;
+  transition: 0.2s;
   transition-timing-function: ease-out;
 }
 
 .cover__background:hover::before {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
@@ -32,5 +32,5 @@
 @media screen and (max-width: 320px) {
   .cover__background {
     background-size: 320px 254px;
-}
+  }
 }
