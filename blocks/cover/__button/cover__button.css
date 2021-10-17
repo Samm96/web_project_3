@@ -3,11 +3,11 @@
   grid-column: 2;
   max-width: 137px;
   margin: 0 auto;
+  grid-area: button;
 }
 
 @media screen and (max-width: 495px) {
   .cover__button {
-    grid-row: none;
-    grid-column: none;
+    
   }
 }
