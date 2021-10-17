@@ -8,7 +8,7 @@
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     margin: 16px 0;
-    width: 288px;
+    width: 100%;
     grid-column: none;
     grid-row: none;
   }
