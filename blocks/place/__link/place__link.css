@@ -16,5 +16,6 @@
   .place__link {
     margin: 12px 0 0 0;
     width: 100%;
+    grid-column: 2;
   }
 }
