@@ -8,7 +8,7 @@
   line-height: 22px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 495px) {
   .cover__text {
     text-align: center;
     width: 100%;

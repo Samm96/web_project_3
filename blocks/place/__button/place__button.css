@@ -7,7 +7,7 @@
   grid-area: nav;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 495px) {
   .place__button {
     max-width: 288px;
     grid-column: 1;

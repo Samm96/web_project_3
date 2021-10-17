@@ -5,7 +5,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 495px) {
   .cover__button {
     grid-row: none;
     grid-column: none;

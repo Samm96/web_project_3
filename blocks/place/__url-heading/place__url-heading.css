@@ -8,7 +8,7 @@
   font-weight: 400;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 495px) {
   .place__url-heading {
     line-height: 12px;
   }
