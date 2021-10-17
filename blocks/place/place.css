@@ -13,7 +13,7 @@
   margin: 92px 0 0 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .place {
     margin: 72px 0 0 0;
     grid-gap: 48px 28px;

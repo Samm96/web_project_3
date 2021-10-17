@@ -9,7 +9,7 @@
   grid-column: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .place__title {
     display: flex;
     flex-direction: column;

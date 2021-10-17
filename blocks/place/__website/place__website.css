@@ -10,7 +10,7 @@
   grid-column: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .place__website {
     width: 316px;
   }
