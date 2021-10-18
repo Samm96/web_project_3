@@ -3,6 +3,7 @@
   padding: 0;
   max-width: 690px;
   width: 100%;
+  grid-column: 2;
 }
 
 .intro__text:nth-of-type(1) {
@@ -30,6 +31,7 @@
 @media screen and (max-width: 768px) {
   .intro__text {
     width: 100%;
+    grid-column: 2;
   }
 }
 

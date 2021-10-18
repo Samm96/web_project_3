@@ -6,11 +6,13 @@
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
+  grid-column: 2;
 }
 
 @media screen and (max-width: 768px) {
   .intro__title {
     width: 100%;
+    grid-column: 2;
   }
 }
 
