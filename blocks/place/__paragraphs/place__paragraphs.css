@@ -12,6 +12,7 @@
   .place__paragraphs {
     font-size: 16px;
     line-height: 26px;
+    grid-row: span 2;
   }
 }
 

@@ -4,6 +4,7 @@
   text-align: center;
   grid-column: 1;
   grid-row: 3;
+  height: fit-content;
   grid-area: nav;
 }
 
