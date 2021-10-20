@@ -5,15 +5,8 @@
   width: 100%;
 }
 
-@media screen and (max-width: 768px) {
-  .places {
-    width: 100%;
-  }
-}
-
 @media screen and (max-width: 495px) {
   .places {
-    width: 100%;
     grid-gap: none;
   }
 }

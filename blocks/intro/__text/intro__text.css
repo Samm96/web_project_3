@@ -11,13 +11,6 @@
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    width: 100%;
     grid-column: 2;
-  }
-}
-
-@media screen and (max-width: 495px) {
-  .intro__text {
-    width: 100%;
   }
 }

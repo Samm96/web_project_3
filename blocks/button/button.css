@@ -3,6 +3,11 @@
   background: #0278fe;
   color: #ffffff;
   text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 4%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .button:hover {

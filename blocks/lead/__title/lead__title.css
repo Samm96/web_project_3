@@ -9,15 +9,8 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-  .lead__title {
-    width: 100%;
-  }
-}
-
 @media screen and (max-width: 495px) {
   .lead__title {
-    width: 100%;
     font-size: 40px;
     line-height: 44px;
   }
