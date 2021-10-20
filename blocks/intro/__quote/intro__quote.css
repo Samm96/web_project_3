@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 495px) {
     .intro__quote {
-      width: 100%;
       line-height: 30px;
     }
   }
