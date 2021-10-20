@@ -35,3 +35,6 @@ The website was coded with the following screen resolutions in mind:
 * GitHub
 * TinyPNG *An image compressing website*  - https://tinypng.com/
 * SVGOMG *A .svg compressor* - https://jakearchibald.github.io/svgomg/
+
+
+Link to GitPages: https://samm96.github.io/web_project_3/ 
