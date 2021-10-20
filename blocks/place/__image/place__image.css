@@ -6,6 +6,7 @@
   grid-column: 1;
   grid-row: 2;
   grid-area: image;
+  box-sizing: border-box;
 }
 
 .place__image:last-of-type {

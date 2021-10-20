@@ -17,5 +17,6 @@
   .intro {
     margin: 64px auto 0;
     padding: 0 0 90px 0;
+    grid-template-columns: 16px 1fr 16px;
   }
 }

@@ -30,7 +30,7 @@
   .place {
     margin: 48px 0;
     padding: 0;
-    gap: 30px;
+    gap: 30px 0;
     grid-template-columns: 16px 1fr 16px;
     grid-template-areas:
       "header"
